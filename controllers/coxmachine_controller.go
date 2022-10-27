@@ -41,10 +41,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/handler"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	coxv1 "github.com/coxedge/cluster-api-provider-cox/api/v1beta1"
-	"github.com/coxedge/cluster-api-provider-cox/pkg/cloud/coxedge"
-	"github.com/coxedge/cluster-api-provider-cox/pkg/cloud/coxedge/scope"
 	"github.com/go-logr/logr"
+	coxv1 "github.com/shantanubansal/cluster-api-provider-coxedge/api/v1beta1"
+	"github.com/shantanubansal/cluster-api-provider-coxedge/pkg/cloud/coxedge"
+	"github.com/shantanubansal/cluster-api-provider-coxedge/pkg/cloud/coxedge/scope"
 )
 
 var (

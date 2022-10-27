@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/coxedge/cluster-api-provider-cox/cmd/cox/cmd"
+	"github.com/shantanubansal/cluster-api-provider-coxedge/cmd/cox/cmd"
 )
 
 func main() {

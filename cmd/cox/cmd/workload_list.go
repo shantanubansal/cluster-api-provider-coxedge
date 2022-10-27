@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/coxedge/cluster-api-provider-cox/pkg/cloud/coxedge"
 	"github.com/erwinvaneyk/cobras"
 	"github.com/olekukonko/tablewriter"
+	"github.com/shantanubansal/cluster-api-provider-coxedge/pkg/cloud/coxedge"
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 	"golang.org/x/exp/slices"

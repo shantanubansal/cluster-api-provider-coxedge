@@ -29,7 +29,7 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	clusterv1beta1 "github.com/coxedge/cluster-api-provider-cox/api/v1beta1"
+	clusterv1beta1 "github.com/shantanubansal/cluster-api-provider-coxedge/api/v1beta1"
 	// +kubebuilder:scaffold:imports
 )
 

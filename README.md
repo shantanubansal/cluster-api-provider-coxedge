@@ -15,7 +15,7 @@ providers:
   # Add the cox infrastructure provider to the clusterctl config for discovery
   - name: cox
     type: InfrastructureProvider
-    url: https://github.com/coxedge/cluster-api-provider-cox/releases/latest/
+    url: https://github.com/shantanubansal/cluster-api-provider-coxedge/releases/latest/
   # or, use a local provider (replace the `/path/to` with the path to this repository).
   - name: cox-local
     type: InfrastructureProvider
